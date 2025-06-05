@@ -24,6 +24,8 @@ def ordenar_numeros():
 
 janela = tk.Tk()
 janela.title("Ordenar Números com Prefixo")
+janela.geometry("300x500")
+janela.minsize(300, 500)
 
 
 tk.Label(janela, text="Digite o prefixo (9 dígitos):").pack()
